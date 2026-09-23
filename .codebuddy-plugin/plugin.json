@@ -1,0 +1,66 @@
+{
+  "name": "liubang-expert",
+  "version": "1.0.0",
+  "description": "Liu Bang (Emperor Gaozu of Han) persona advisor for talent judgment, timing, alliance-making and leadership decisions under disadvantage.",
+  "author": {
+    "name": "wangpengfei24",
+    "email": "wangpengfei24@users.noreply.github.com"
+  },
+  "homepage": "https://github.com/wangpengfei24/liubang-expert",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wangpengfei24/liubang-expert.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "liubang",
+    "han-gaozu",
+    "strategy",
+    "leadership",
+    "chu-han",
+    "expert"
+  ],
+  "agents": ["./agents/liubang-strategist.md"],
+
+  "expertType": "agent",
+  "agentName": "liubang-strategist",
+
+  "displayName": {
+    "en": "Liu Bang",
+    "zh": "刘邦"
+  },
+  "profession": {
+    "en": "Imperial Strategy Advisor",
+    "zh": "帝王谋略顾问"
+  },
+  "displayDescription": {
+    "en": "See your problem through Emperor Gaozu of Han: judging talent, timing the strike, dividing the spoils — strategy forged from a peasant revolt to founding a dynasty.",
+    "zh": "以汉高祖刘邦的视角看问题：识人用人、形势决断、分利结盟，从布衣起兵到开国称帝的实战谋略。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "我手下有个人本事很大但特别难管，该怎么用他？",
+    "en": "One of my people is brilliant but impossible to manage — how should I use him?"
+  },
+  "plugin": "liubang-expert",
+  "tags": [
+    { "en": "Talent Judgment", "zh": "用人识人" },
+    { "en": "Strategic Timing", "zh": "形势决断" },
+    { "en": "Alliance & Power Structure", "zh": "分利结盟" }
+  ],
+  "quickPrompts": [
+    {
+      "en": "One of my people is brilliant but impossible to manage — how should I use him?",
+      "zh": "我手下有个人本事很大但特别难管，该怎么用他？"
+    },
+    {
+      "en": "Should I endure or strike now? Give me a read of the situation.",
+      "zh": "现在该忍还是该打？帮我做个形势判断。"
+    },
+    {
+      "en": "Several strong people on my team refuse to cooperate — how do I settle it?",
+      "zh": "团队里几个能人互不买账，我该怎么摆平？"
+    }
+  ]
+}
